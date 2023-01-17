@@ -1,0 +1,42 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.13.0",
+    "npm": ">=8.19.3"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "contributors": [
+    "stephen.deletang@shopopop.com"
+  ],
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "rm -rf ./dist && tsc",
+    "lint": "ts-standard --verbose | snazzy",
+    "lint:fix": "ts-standard --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tech-shopopop <tech@shopopop.com>",
+  "license": "ISC",
+  "ts-standard": {
+    "ignore": [
+      "dist"
+    ]
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.11.18",
+    "snazzy": "^9.0.0",
+    "ts-node": "^10.9.1",
+    "ts-standard": "^12.0.2",
+    "typescript": "^4.9.4"
+  }
+}
