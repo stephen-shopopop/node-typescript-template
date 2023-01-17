@@ -1,7 +1,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/"
+    "outDir": "./dist/",
+    "declaration": true,
   },
   "extends": "@tsconfig/node18/tsconfig.json",
   "include": ["./src/**/*"],

@@ -2,7 +2,8 @@
   "name": "typescript-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "engines": {
     "node": ">=18.13.0",
     "npm": ">=8.19.3"
@@ -11,6 +12,13 @@
     "darwin",
     "linux"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-typescript-tempplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/node-typescript-tempplate/issues"
+  },
   "contributors": [
     "stephen.deletang@shopopop.com"
   ],

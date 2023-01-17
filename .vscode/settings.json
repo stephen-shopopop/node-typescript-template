@@ -1,8 +1,14 @@
 {
   "prettier.enable": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
     "source.sortMembers": true,
     "source.sortImports": true
-  }
+  },
+  "standard.enable": true,
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "standard.engine": "ts-standard"
 }
