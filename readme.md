@@ -19,7 +19,7 @@ Template nodejs typescript with ts-standard
 1. npm run build -  Build library.
 2. npm run start - start project
 3. npm run dev - start project on dev mode
-4. npm run test - Run test with jest.
+4. npm run test - Run test with node:test runner
 5. npm run lint - Lint your code.
 6. npm run lint:fix - Lint & fix your code.
 7. npm run typecheck - Run typescript check.
